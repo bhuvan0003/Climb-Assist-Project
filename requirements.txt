@@ -1,4 +1,4 @@
-# ClimbAssist AI - Complete Local Requirements
+ now # ClimbAssist AI - Complete Local Requirements
 # Contains all features for local machine deployment
 # For Streamlit Cloud, use: requirements-cloud.txt
 
