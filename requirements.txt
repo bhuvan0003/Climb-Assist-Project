@@ -1,4 +1,4 @@
- now # ClimbAssist AI - Complete Local/Railway Requirements
+# ClimbAssist AI - Complete Local/Railway Requirements
 # Contains all features for local machine and Railway deployment
 # All ML models included: PyTorch, TensorFlow, OpenCV
 
