@@ -1,6 +1,6 @@
- now # ClimbAssist AI - Complete Local/Railway Requirements
-# Contains all features for local machine and Railway deployment
-# All ML models included: PyTorch, TensorFlow, OpenCV
+ now # ClimbAssist AI - Railway Optimized Requirements
+# Lightweight version that builds successfully on Railway free tier
+# Includes TensorFlow-CPU for Movement Analyzer, basic features for Route Planner
 
 # Web App Framework
 streamlit>=1.28.0
@@ -11,17 +11,8 @@ scipy>=1.10.0
 Pillow>=9.5.0
 scikit-image>=0.21.0
 
-# PyTorch (for route planning & segmentation)
-torch>=2.0.0
-torchvision>=0.15.0
-segmentation-models-pytorch>=0.3.3
-timm>=0.9.0
-
-# OpenCV (for video processing)
-opencv-python>=4.8.0
-
-# TensorFlow (for MoveNet pose estimation)
-tensorflow>=2.13.0
+# TensorFlow CPU (lightweight - for pose detection)
+tensorflow-cpu>=2.13.0
 tensorflow-hub>=0.13.0
 
 # PDF Generation
